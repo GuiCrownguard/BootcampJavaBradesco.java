@@ -6,7 +6,6 @@
 }
 
 # Desafios de Projeto💻
-***********************************************************
 | **String** nomeProjeto = ; | **String** nomePasta = ; | 
 | :----------------------------------:|:---------------------:|
 | "Simulando Uma Conta Bancária Através Do Terminal/Console" | "ContaBanco" |
