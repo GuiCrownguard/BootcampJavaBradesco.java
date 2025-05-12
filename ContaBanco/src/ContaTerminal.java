@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class ContaTerminal{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Por gentileza para continuar digite seu Nome completo :D - ");
         String nomeCliente = scanner.nextLine();
 
@@ -16,8 +17,11 @@ public class ContaTerminal{
             System.out.print("Tente novamente por gentileza - ");
         }
         int conta = scanner.nextInt();
-        
+        scanner.nextLine();
+
         double saldo = 237.48;
+
+        scanner.close();
 
         System.out.print("Olá "+nomeCliente+", obrigado por criar uma conta em nosso banco, sua agência é "+agencia+", conta "+conta+" e seu saldo "+saldo+" já está disponível para saque!");
     }
