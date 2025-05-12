@@ -10,3 +10,12 @@
 | **String** nomeProjeto = ; | **String** nomePasta = ; | 
 | :----------------------------------:|:---------------------:|
 | "Simulando Uma Conta Bancária Através Do Terminal/Console" | "ContaBanco" |
+
+
+Espero que gostem! Aproveitem!
+
+# Sobre 👨‍💻
+Repositório e Projetos desenvolvidos por,  
+**Guilherme Mancusi Simões**  
+👨‍💻 [Linkedin](https://www.linkedin.com/in/guilherme-mancusi-sim%C3%B5es-882873215/)  
+😸 [Github](https://github.com/GuiCrownguard)
