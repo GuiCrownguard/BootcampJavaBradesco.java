@@ -11,7 +11,7 @@
 | "Simulando Uma Conta Bancária Através Do Terminal/Console" | "ContaBanco" |
 
 
-Espero que gostem! Aproveitem!
+Espero que gostem! Aproveitem!🤓💖
 
 # Sobre 👨‍💻
 Repositório e Projetos desenvolvidos por,  
