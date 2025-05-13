@@ -1,0 +1,37 @@
+classDiagram
+    class IPhone {
+        +tocar()
+        +pausar()
+        +selecionarMusica(musica)
+        +ligar(numero)
+        +atender()
+        +iniciarCorreioVoz()
+        +exibirPagina(url)
+        +adicionarNovaAba()
+        +atualizarPagina()
+    }
+
+    class ReprodutorMusical {
+        <<interface>>
+        +tocar()*
+        +pausar()*
+        +selecionarMusica(musica)*
+    }
+
+    class AparelhoTelefonico {
+        <<interface>>
+        +ligar(numero)*
+        +atender()*
+        +iniciarCorreioVoz()*
+    }
+
+    class NavegadorInternet {
+        <<interface>>
+        +exibirPagina(url)*
+        +adicionarNovaAba()*
+        +atualizarPagina()*
+    }
+
+    IPhone --|> ReprodutorMusical
+    IPhone --|> AparelhoTelefonico
+    IPhone --|> NavegadorInternet
